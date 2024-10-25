@@ -16,18 +16,18 @@ const Features = () => {
     <div className=' '>
         <div className='feat text-center d-flex  my-5'>
         <img src={Feature} alt='icon' className='px-2'/>
-        <h4>CORE FEATURES & QUALITY MANAGEMENT</h4>
+        <h4 className='font'>CORE FEATURES & QUALITY MANAGEMENT</h4>
         </div>
 
 <h1 className='fea my-5'>What Makes Us Different</h1>
 
 
-<div className='row fourty'>
-  <div className='col '>
+<div className='row fourty '>
+  <div className='col  '>
   <SingleT
 wrapper={
-<div className='warpper text-center mx-4'> 
-<div className='box-1'>
+<div className='warpper text-center mx-4 '> 
+<div className='box-1 '>
 <img src={Photo} alt='photo-1' className='' />
 </div>
 <div className='box-2'>

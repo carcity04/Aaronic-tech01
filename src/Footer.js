@@ -7,6 +7,7 @@ import { TfiTwitter } from "react-icons/tfi";
 import { IoLogoInstagram } from "react-icons/io";
 import { LuLinkedin } from "react-icons/lu";
 import Slider from './Slider'
+import Aaronic from './Asset/Images/Aaronic.png'
 const Footer = () => {
   // const myGreetRef = useRef()
 
@@ -153,14 +154,14 @@ Their expertise in the industry and commitment to quality
 </div>
 <div className='Footer-b my-5 w-100'>
 
-    <div className='row'>
+    <div className='row direction mx-5'>
       <div className='col'>
-      <div className='d-flex mx-5 '>
-    <img src={Logo} alt='logo'/>
-    <h1 class="navbar-brand logo">Aaronic</h1>
+      <div className='d-flex w-50 '>
+    <img src={Logo} alt='logo' className='w-25'/>
+    <img src={Aaronic} alt='navbar-loho' className='navbar-brand w-50 mx-1 '/>
     </div>
       </div>
-      <div className='col'>
+      <div className='col my-4'>
         <p>company</p>
         <p>Ship Management </p>
         <p> Oil & Gas Trading </p>
@@ -172,7 +173,7 @@ Their expertise in the industry and commitment to quality
 
 
       </div>
-      <div className='col'>
+      <div className='col my-4'>
         <p> Solutions</p>
         <p>Oil & Gas </p>
         <p>Crude Oil</p>
@@ -183,7 +184,7 @@ Their expertise in the industry and commitment to quality
 
 
       </div>
-      <div className='col'>
+      <div className='col my-4'>
         <p> Resources</p>
         <p> Social Proof </p>
         <p> Contact Us</p>
@@ -200,13 +201,13 @@ Their expertise in the industry and commitment to quality
  
 
 
-<div className='d-flex flex-row-reverse '>
+<div className='d-flex flex-row-reverse mx-5'>
 <TfiTwitter className='fs-4 mx-2' />
 <IoLogoInstagram className='fs-4 mx-2' />
 <LuLinkedin className='fs-5 mx-2'  />
 </div>
 
-  <p>aaronic@2024. All rights reserved.</p>
+  <p className='mx-5'>aronic@2024. All rights reserved.</p>
 
 
 

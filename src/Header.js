@@ -18,8 +18,8 @@ const Header = () => {
       <nav class="navbar bar-1 mx-5 ">
   <div class="container m-0 p-0">
   <div className='d-flex  '>
-    <img src={Logo} alt='logo'/>
-     <img src={Aaronic} alt='navbar-loho' className='navbar-brand'/>
+    <img src={Logo} alt='logo ' />
+     <img src={Aaronic} alt='navbar-loho' className='navbar-brand mx-0 w-50'/>
     </div>
       <div >
       <Link to="/"  className='link-up'>Home</Link>
@@ -43,7 +43,7 @@ const Header = () => {
 </nav>
 <nav class="navbar bar-2 ">
   <div class="container jail ">
-  <div className='d-flex '>
+  <div className='d-flex mx-4 my-2 '>
  
     <div>
     <img src={Logo} alt='logo'/>

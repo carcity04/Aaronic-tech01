@@ -44,7 +44,7 @@ setGender("Male")
   engage in the buying and selling of crude oil and refined products, ensuring efficient and secure transportation of oil
    and other goods across the globe, utilising a fleet of advanced vessels and overseeing the maintenance, crewing, and 
    operational efficiency of maritime assets.  </p> 
-   <img src={GroupThird} alt='group' className='my-5'/>   
+   <img src={GroupThird} alt='group' className='my-5 '/>   
       </div>
 
 

@@ -126,7 +126,7 @@ img{
 }
 .feat{
   background-color: #ED9B05;
-  width: 545px;
+  width: 455px;
   height: 45px;
   margin-left: 500px;
   color: white;
@@ -136,12 +136,16 @@ img{
 }
 .fea{
 
-  margin-left: 550px;
+  margin-left: 450px;
   color: white;
   font-size: 40px;
   font-weight: bold;
 }
-
+.font{
+  font-size: 18px;
+  font-weight: 500px;
+  line-height: 21px;
+}
 .warpper{
   position: relative;
 }
@@ -561,11 +565,11 @@ margin-left: 70px;
   .fea{
 
     margin-left:50px;
-    font-size: 30px;
+    font-size: 23px;
 
   }
   .feat{
-    margin-left:50px;
+    margin-left:45px;
     width: 355px;
     height: 60px;
 
@@ -614,5 +618,12 @@ height: 300px;
   line-height: 50px;
   margin: 0 !important;
 
+}
+.direction{
+  flex-direction: column;
+}
+.small{
+  width: 350px;
+  /* margin-left: 50px; */
 }
 }

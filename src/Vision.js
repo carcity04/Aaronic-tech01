@@ -12,7 +12,7 @@ import { CiLocationOn } from "react-icons/ci";
 const Vision = () => {
   return (
     <div>
-      <div class="container text-start">
+      <div class="container text-start mx-4">
   <div className="row direction">
     <div className="col my-5">
 <div className='d-flex'>
@@ -41,14 +41,14 @@ Our Key Responsibility Values
   
   </div>
 </div>
-<div className='vision text-center pt-5'>
+<div className='vision text-center pt-5 '>
 <h1 className='explore'>Contact Aaronic Energy Today</h1>
 <p className='small-1'>Reach out to us with your inquiries or to explore partnership opportunities.
 Get Started</p>
 <button className='btn mybtn-2'>Get started</button>
 </div>
 
-<div class="container text-start my-5">
+<div class="container text-start my-5 mx-3">
   <div class="row direction">
     <div class="col">
   <h1 className='big my-5'> Reach Out to Us</h1>
