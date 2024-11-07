@@ -524,11 +524,12 @@ margin-left : 70px;
   .logo-2{
     font-size: 20px;
     font-weight: bold;
+    margin-left: 25px;
     
   }
   .logo-1{
-    margin-left: 30px;
-    font-size: 18px;
+    margin-left: 50px;
+    font-size: 16px;
     width: 300px;
   }
 
@@ -566,17 +567,22 @@ margin-left : 70px;
     line-height: 50.2px;
     width: 315px !important;
     height: 80px;
+    margin:   0 0 0 0 !important;
+    padding: 0 !important;
   }
-  .energy{
+  .energy-3{
     font-size: 16px;
     font-weight: 300;
     line-height: 21.78px;
     width: 321px !important;
     height: 176px;
-    margin-left: 0px !important;
+
+    margin:   0 0 0 0 !important;
+    padding: 0 !important;
   
   
   }
+
   .energy-main{
     margin-left: 50px;
   }
@@ -765,12 +771,17 @@ height: 300px;
   .left-btn{
     margin-left: 1px;
   }
-  .energy{
+  .energy-3{
 
-    width: 281px;
+    width: 300px !important;
     height: 186px;
+    margin:   0 0 0 0 !important;
+  padding: 0 !important;
   
-  
+  }
+  .energy-1{
+    margin:  0 !important;
+  padding: 0 !important;
   }
   .box-1{
  
