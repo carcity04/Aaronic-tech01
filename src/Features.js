@@ -11,10 +11,10 @@ import PhotoE from './Asset/Images/Photo (3).png'
 
 const Features = () => {
   return (
-    <div className='Feature py-5'>
+    <div className='Feature py-5 '>
     
     <div className=' '>
-        <div className='feat text-center d-flex  my-5'>
+        <div className='feat text-center d-flex  my-5' >
         <img src={Feature} alt='icon' className='px-2'/>
         <h4 className='font'>CORE FEATURES & QUALITY MANAGEMENT</h4>
         </div>

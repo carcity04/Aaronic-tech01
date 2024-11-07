@@ -94,11 +94,11 @@ body,html{
   background-color: #ED9B05;
 }
 .energy{
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 21.78px;
-  width: 421px;
-  height: 176px;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  line-height: 21.78px !important;
+  width: 421px !important;
+  height: 176px !important;
 
 
 }
@@ -106,8 +106,8 @@ body,html{
   font-weight: 800;
   font-size: 40px;
   line-height: 50.2px;
-  width: 515px;
-  height: 100px;
+  width: 515px !important;
+  height: 100px !important;
 
 }
 img{
@@ -200,9 +200,9 @@ border: #ED9B05 1px solid;
 }
 .small-1{
   font-weight: 400px;
-  font-size: 24px;
+  font-size: 24px !important;
   line-height: 30px;
-  width: 538px;
+  width: 638px !important;
   margin-left: 450px;
 }
 .footer{
@@ -316,6 +316,10 @@ hr{
 
 
 }
+.fourty{
+  gap: 30px !important;
+  margin-left: 0px !important;
+}
 
 
 /* button {
@@ -337,7 +341,16 @@ hr{
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+@media (max-width:1280px) {
 
+ 
+  .small-bar {
+width: 910px;
+  } 
+ .link-up{
+  padding: 18px;
+ }
+}
 
 @media (max-width:1024px) and (max-width:1366px) {
   .bar-1{
@@ -405,8 +418,8 @@ hr{
 
   .fourty{
     flex-direction: column !important;
-    gap: 300px;
-    margin-left: 200px;
+    gap: 300px !important;
+    margin-left: 200px !important;
   }
   .Feature{
 
@@ -496,7 +509,7 @@ hr{
   display: block !important;
 }
   .icon-color{
-margin-left: 70px;
+margin-left : 70px;
   }
   .text-main{
     margin-left: 10px;
@@ -505,13 +518,18 @@ margin-left: 70px;
  
   .group{
     width: 300px;
-    margin-right: 50px !important;
+    margin-right: 30px !important;
 
   }
   .logo-2{
     font-size: 20px;
     font-weight: bold;
     
+  }
+  .logo-1{
+    margin-left: 30px;
+    font-size: 18px;
+    width: 300px;
   }
 
   li{
@@ -546,16 +564,16 @@ margin-left: 70px;
     font-weight: bold;
     font-size: 20px;
     line-height: 50.2px;
-    width: 315px;
+    width: 315px !important;
     height: 80px;
   }
   .energy{
     font-size: 16px;
     font-weight: 300;
     line-height: 21.78px;
-    width: 321px;
+    width: 321px !important;
     height: 176px;
-    margin-left: 0px ;
+    margin-left: 0px !important;
   
   
   }
@@ -576,8 +594,8 @@ margin-left: 70px;
   }
   .fourty{
     flex-direction: column !important;
-    gap: 300px;
-    margin-left: 30px;
+    gap: 300px !important;
+    margin-left: 30px !important;
   }
   .Feature{
 
@@ -592,7 +610,7 @@ height: 300px;
   }
   .small-1{
     margin-left: 15px;
-    width: 400px;
+    width: 380px !important;
   }
 .direction{
   flex-direction: column;
@@ -626,4 +644,178 @@ height: 300px;
   width: 350px;
   /* margin-left: 50px; */
 }
+}
+ @media (max-width: 390px) {
+  .logo-2{
+    margin-left: 28px;
+   
+     font-size: 16px;
+     font-weight: bold;
+     width: 280px;
+       
+     }
+     .logo-1{
+       margin-left: 30px;
+       font-size: 16px;
+       width: 300px;
+     }
+     .icon-color{
+      margin-left: 28px;
+    }
+    .feat{
+      margin-left: 17px;
+      width: 325px;
+      height: 55px;
+    }
+    .fea{
+      margin-left: 15px;
+      font-size: 21px;
+    }
+    .fourty{
+      gap: 300px;
+      margin-left: 5px;
+    }
+    .small{
+      width: 290px;
+      /* margin-left: 50px; */
+    }
+    .big{
+      font-size: 24px;
+    }
+    .big-group{
+      width: 290px;
+    }
+    .explore{
+
+      font-size: 23px;
+      width: 340px;
+   
+    }
+    .small-1{
+      font-size: 20px;
+      width: 340px;
+
+    }
+    .mybtn-2{
+      margin: 0 110px 0 0!important ;
+    }
+
+
+ }
+@media (max-width: 375px) {
+  .logo-2{
+ margin-left: 28px;
+
+  font-size: 16px;
+  font-weight: bold;
+  width: 300px;
+  
+
+    
+  }
+  .logo-1{
+    margin-left: 30px;
+
+    font-size: 16px;
+   
+    width: 300px;
+  }
+  .icon-color{
+    margin-left: 35px;
+  }
+  .group-1{
+    margin-left: 50px;
+   width: 280px !important;
+  }
+  .fourty{
+    gap: 300px;
+    margin-left: 10px;
+  }
+  .fea{
+    margin-left: 15px;
+    font-size: 21px;
+  }
+  .feat{
+    margin-left: 18px;
+    width: 325px;
+    height: 55px;
+  }
+  .small{
+    width: 300px;
+    /* margin-left: 50px; */
+  }
+  .big{
+    font-size: 25px;
+  }
+  .big-group{
+    width: 300px;
+  }
+  .explore{
+
+    font-size: 22px;
+    width: 350px;
+  }
+  .small-1{
+    font-size: 20px !important;
+    width: 350px !important;
+  }
+  .mybtn-2{
+    margin-left: 0!important ;
+  }
+  .left-btn{
+    margin-left: 1px;
+  }
+  .energy{
+
+    width: 281px;
+    height: 186px;
+  
+  
+  }
+  .box-1{
+ 
+    width: 280px;
+  
+  }
+  .box-2{
+
+    width: 265px;
+    height: 180px;
+  
+  }
+}
+@media (min-width:360px) {
+  .box-1{
+ 
+    width: 280px;
+  
+  }
+  .box-2{
+
+    width: 265px;
+    height: 180px;
+  
+  }
+  .fourty{
+    gap: 300px;
+    margin-left: 8px;
+  }
+  .small-1{
+    font-size: 18px;
+    width: 340px;
+
+  }
+  .energy{
+ 
+    width: 281px;
+    height: 186px;
+  
+  
+  }
+  .partners{
+
+
+    margin-right: 10px;
+    width: 75%;
+  }
 }

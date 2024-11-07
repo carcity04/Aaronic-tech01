@@ -15,29 +15,27 @@ const Header = () => {
     }
   return (
     <div>
-      <nav class="navbar bar-1 mx-5 ">
-  <div class="container m-0 p-0">
-  <div className='d-flex  '>
+      <nav class="navbar bar-1    ">
+  <div class="container  main-bar d-flex ">
+  <div className='d-flex  day '>
     <img src={Logo} alt='logo ' />
-     <img src={Aaronic} alt='navbar-loho' className='navbar-brand mx-0 w-50'/>
+     <img src={Aaronic} alt='navbar-logo' className='navbar-brand mx-0 w-50'/>
     </div>
-      <div >
+      <div  className='small-bar   '>
       <Link to="/"  className='link-up'>Home</Link>
       <Link to="/About" className='link-up'>About us</Link>
       <Link to="/service"  className='link-up'>Service</Link>
       <Link to="/"  className='link-up'> Careers</Link>
       <Link to="/"  className='link-up'>Contact Us</Link>
-  
 
+
+<button class="btn  mybtn-1 mx-5 me-4" type="submit">Contact Us</button>
+<button class="btn  mybtn " type="submit">Get started</button>
 
       </div>
 
   
-    <form class="d-flex" role="search">
-    <button class="btn  mybtn-1  me-4" type="submit">Contact Us</button>
-    <button class="btn  mybtn" type="submit">Get started</button>
    
-      </form>
     
   </div>
 </nav>
