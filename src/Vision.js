@@ -45,8 +45,8 @@ Our Key Responsibility Values
 <h1 className='explore'>Contact Aaronic Energy Today</h1>
 <p className='small-1 my-2 w-75'>Reach out to us with your inquiries or to explore partnership opportunities.
 Get Started</p>
-<div className='left-btn'>
-<button className='btn mybtn-2'>Get started</button>
+<div className='left-btn my-1 w-100 '>
+<button className='btn mybtn-2 mx-5'>Get started</button>
 </div>
 
 </div>

@@ -93,21 +93,23 @@ body,html{
 .icon-1{
   background-color: #ED9B05;
 }
-.energy{
-  font-size: 18px !important;
+.energy-3{
+  font-size: 20px !important;
   font-weight: 400 !important;
-  line-height: 21.78px !important;
+  line-height: 25px !important;
   width: 421px !important;
   height: 176px !important;
 
 
 }
 .energy-1{
-  font-weight: 800;
+  font-weight: 550;
   font-size: 40px;
   line-height: 50.2px;
   width: 515px !important;
-  height: 100px !important;
+
+
+
 
 }
 img{
@@ -565,20 +567,20 @@ margin-left : 70px;
     font-weight: bold;
     font-size: 20px;
     line-height: 50.2px;
-    width: 315px !important;
+    width: 350px !important;
     height: 80px;
-    margin:   0 0 0 0 !important;
-    padding: 0 !important;
+    padding: 0 0  0px !important;
+    margin:  0 0 50px 0px !important;
   }
   .energy-3{
     font-size: 16px;
     font-weight: 300;
     line-height: 21.78px;
-    width: 321px !important;
+    width: 350px !important;
     height: 176px;
+    padding: 0px 0 0 0 !important;
+    margin:  0 0 50px 0 !important;
 
-    margin:   0 0 0 0 !important;
-    padding: 0 !important;
   
   
   }
@@ -611,7 +613,7 @@ margin-left : 70px;
   
   }
   .vision{
-width: 500px;
+width: 450px;
 height: 300px;
   }
   .small-1{
@@ -649,6 +651,9 @@ height: 300px;
 .small{
   width: 350px;
   /* margin-left: 50px; */
+}
+.group-4{
+  margin-top: 50px;
 }
 }
  @media (max-width: 390px) {
@@ -705,8 +710,31 @@ height: 300px;
     .mybtn-2{
       margin: 0 110px 0 0!important ;
     }
+    .energy-1{
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 50.2px;
+      width: 310px !important;
+      height: 80px;
+      padding: 0 0  0px !important;
+      margin:  0 0 50px 0px !important;
+    }
+    .energy-3{
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 21.78px;
+      width: 310px !important;
+      height: 140px;
+      padding: 0px 0 0 0 !important;
+      margin:  0 0 130px 0 !important;
+  
+    
+    
+    }
 
-
+.mybtn-2{
+  margin: 0 0 0 0  !important;
+}
  }
 @media (max-width: 375px) {
   .logo-2{
@@ -771,17 +799,26 @@ height: 300px;
   .left-btn{
     margin-left: 1px;
   }
-  .energy-3{
-
-    width: 300px !important;
-    height: 186px;
-    margin:   0 0 0 0 !important;
-  padding: 0 !important;
-  
-  }
   .energy-1{
-    margin:  0 !important;
-  padding: 0 !important;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 50.2px;
+    width: 300px !important;
+    height: 80px;
+    padding: 0 0  0px !important;
+    margin:  0 0 50px 0px !important;
+  }
+  .energy-3{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 21.78px;
+    width: 300px !important;
+    height: 176px;
+    padding: 0px 0 0 0 !important;
+    margin:  0 0 150px 0 !important;
+
+  
+  
   }
   .box-1{
  
