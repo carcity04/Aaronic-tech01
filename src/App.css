@@ -658,7 +658,7 @@ height: 300px;
 }
  @media (max-width: 390px) {
   .logo-2{
-    margin-left: 28px;
+    margin-left: 30px;
    
      font-size: 16px;
      font-weight: bold;
@@ -671,7 +671,7 @@ height: 300px;
        width: 300px;
      }
      .icon-color{
-      margin-left: 28px;
+      margin-left: 35px;
     }
     .feat{
       margin-left: 17px;
@@ -738,7 +738,7 @@ height: 300px;
  }
 @media (max-width: 375px) {
   .logo-2{
- margin-left: 28px;
+ margin-left: 30px;
 
   font-size: 16px;
   font-weight: bold;
@@ -755,7 +755,7 @@ height: 300px;
     width: 300px;
   }
   .icon-color{
-    margin-left: 35px;
+    margin-left: 38px ;
   }
   .group-1{
     margin-left: 50px;
