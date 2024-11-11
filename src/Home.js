@@ -7,6 +7,7 @@ import Energy from './Energy';
 import Features from './Features'
 import Vision from './Vision';
 import Footer from './Footer';
+import EnergyNow from './EnergyNow';
 
 const Home = () => {
   return (
@@ -17,7 +18,8 @@ const Home = () => {
        <Partner/>
      
  
-       <Energy/>
+       {/* <Energy/> */}
+       <EnergyNow/>
        <Features/>
        <Vision/>
        <Footer/>

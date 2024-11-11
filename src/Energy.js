@@ -31,7 +31,7 @@ setGender("Male")
 
   
         </div>
-      <div className='col energy-main w-100'>
+      <div className='col energy-main w-100 '>
 
   
       <img src={IconY} alt='icon' className=''/>
@@ -40,10 +40,14 @@ setGender("Male")
        {/* <h1>hello{myName}</h1> */}
     
  <h1 className='energy-1 my-5 mx-4'>Aaronic Energy Provides a Full Range of Services</h1>
-<p className='energy-3  my-5 mx-5 py-5 w-100  '>Aaronic Energy specialises in oil trading, marine logistics, and ship management which they 
+
+ <p className='energy-3  '>Aaronic Energy specialises in oil trading, marine logistics, and ship management which they 
   engage in the buying and selling of crude oil and refined products, ensuring efficient and secure transportation of oil
-   and other goods across the globe, utilising a fleet of advanced vessels and overseeing the maintenance, crewing, and 
+   and other goods across the globe, utilising a fleet of advanced <br/> vessels and overseeing the maintenance, crewing, and 
    operational efficiency of maritime assets.  </p> 
+
+
+
    <img src={GroupThird} alt='group' className='my-5  py-5 group-4 px-4 '/>   
       </div>
 
